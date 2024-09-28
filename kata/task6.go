@@ -6,7 +6,8 @@ import (
 )
 
 func StringToNumber(str string) int {
-	return strconv.
+	x, _ := strconv.Atoi(str)
+	return x
 }
 
 func main() {
